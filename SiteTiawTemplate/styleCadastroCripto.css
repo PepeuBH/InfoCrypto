@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+body{
+    background-image: url(imgs/papaeeeoi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: overlay;
+    overflow-x: hidden;
+
+}
+
+/* --------------NAVBAR--------------- */
+.navbar-brand img{ 
+    max-height: 15%;
+    max-width: 15%;
+}
+
+.botao-pesquisa{
+    padding-right: 2%;
+}
+
+
+.navbar-nav li{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.navbar-nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+.navbar-nav img{
+    max-height: 30px;
+    
+}
+
+.navbarcolor{
+    background-color: #98D7C2;
+}
+
+
+/* --------------NAVBAR--------------- */
+
+h1, p{
+    color: white;
+    flex-wrap: wrap;
+}
+
+#inicio{
+    padding-top: 100px;
+}
+
+.welcome h1{
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.welcome p{
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+#inicio{
+    background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.5),  rgba(255, 255, 255, 0));
+}
+
+
+
+
+.home2 h1{
+    margin-top: 100px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home2 p{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 30%;
+    max-width: 30%;
+    border-radius: 10%;
+  }
+
+
+
+/* ---------------HOME3--------- */
+.home3{
+    margin-top: 100px;
+    padding: 0%;
+}
+
+.home3 p {
+    font-size: 30px;  
+    margin-left: 20px;
+}
+
+.home3 h1{
+    color: antiquewhite;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.imgimpo{
+    display: block;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+/* -------------------HOME3---------------------- */
+
+
+
+
+
+/* ----------------HOWTOSTART---------------- */
+.howToStart{
+    margin-top: 100px;
+    background-color: rgba(0, 109, 91, 0.219);
+}
+
+.howToStart h1{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.videosRow{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.videos{
+    margin-bottom: 50px;
+}
+
+/* ----------------HOWTOSTART---------------------------- */
+
+
+
+
+/* ---------------------Scroll Bar-----------------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #000000;
+  }
+
+  /* --------------------Scroll Bar------------------------ */
+
+
+  footer{
+      text-align: center;
+      color:black;
+  }

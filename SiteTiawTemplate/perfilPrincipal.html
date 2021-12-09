@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Pessoal">
+    <link rel="icon" href="./svg/icon.svg">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <header class="cabecalho">
+
+    </header>
+
+    <main class="main">
+
+        <div class="Perfil">
+            <div class="perfil" id="perfil"></div>
+
+
+            <div class="editPerfil">
+                <form id="form-configPerfil">
+                    <label class="labels">Nome</label>
+                    <input type="text" class="form-control" placeholder="Primeiro nome" id="txtnome" required>
+
+                    <label class="labels">Sobrenome</label>
+                    <input type="text" class="form-control" placeholder="Segundo nome" id="txt_obrenome">
+
+                    <label class="labels">Endereco</label>
+                    <input type="text" class="form-control" placeholder="Endereço" id="txtaddress">
+
+                    <label class="labels">Email</label>
+                    <input type="email" class="form-control" placeholder="Adicionar email" id="txtemail" required>
+
+                    <label class="labels">Senha</label>
+                    <input type="password" class="form-control" placeholder="Alterar senha" id="txtsenha" required>
+                </form>
+                <div class="btn-saveChanges">
+                    <button class="btn" id="profile-button" type="button">Salvar alterações</button>
+                </div>
+            </div>
+    </main>
+
+    <footer class="rodape">
+
+    </footer>
+
+    <script src="./js/perfil.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+body{
+    background-image: url(imgs/papapap.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: overlay;
+    overflow-x: hidden;
+
+}
+
+
+
+
+/* ---------------------Scroll Bar-----------------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #000000;
+  }
+
+  /* --------------------Scroll Bar------------------------ */
+
+
+
+
+.logoempresa a{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloEmpresa h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+
+.logoempresa > div{
+    margin-top: 5%;
+}
+
+.logoempresa img{
+    max-width: 50%;  
+}
+
+
+#login  input{
+    display: block;   
+}
+
+#login label{
+    font-size: 180%;
+}
+
+#login input{
+    font-size: 150%;  
+}
+
+#login .btn{
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+
+.login-form{
+    display: flex;
+    justify-content: center;
+}
+
+#login{
+    background-color: #297bb152;
+    padding: 8%;
+    border-radius: 10%;
+}
+
+footer{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+@media screen and (max-width:1000px){
+    .login-tela{
+        width: 80vw;
+        height: 80vh;
+    }
+}

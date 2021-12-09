@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: Roboto, sans-serif
+}
+
+ :focus {
+    outline: 0
+}
+
+ :root {
+    --color-primary: #1B2425;
+    --color-white: #ffffff;
+    --font-super: 62px;
+    --font-subTitle: 22px;
+    --gradient-green: linear-gradient(to right, #42E695 0%, #3BB2B8 50%, #42E695 100%)
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: var(--color-primary)
+}
+
+body::after {
+    content: '';
+    background: url(../img/conversor-moedas.jpg) no-repeat center;
+    background-size: auto 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    opacity: .2;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    left: 0
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    min-height: 300px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    align-items: center;
+    justify-content: center
+}
+
+.title {
+    flex-basis: 100%;
+    text-align: center
+}
+
+.title h1 {
+    color: var(--color-white);
+    font-size: var(--font-super);
+    font-weight: 400
+}
+
+.title h2 {
+    color: var(--color-white);
+    font-size: var(--font-subTitle);
+    font-weight: 500;
+    margin: 40px auto;
+    max-width: 500px
+}
+
+.card {
+    width: 350px;
+    border-radius: 15px;
+    padding: 12px 22px;
+    background-color: var(--color-white)
+}
+
+.card_body {
+    width: 100%;
+    display: block;
+    padding: 12px 0
+}
+
+.card .card_title {
+    font-size: 12px;
+    margin-bottom: 12px
+}
+
+.card .card_form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.flex-50 {
+    flex-basis: 50%
+}
+
+.flex-100 {
+    flex-basis: 100%
+}
+
+.card .card_form .real {
+    display: flex
+}
+
+.card .card_form .real p {
+    font-size: 22px
+}
+
+.card .card_form .real input {
+    margin-left: 6px;
+    background: 0 0;
+    border: none;
+    font-size: 22px;
+    width: 130px;
+    text-align: right;
+    border-bottom: 1px solid var(--color-primary)
+}
+
+.card .card_form .moeda {
+    margin-left: 22px;
+    border: none;
+    border-bottom: 1px solid var(--color-primary);
+    width: 70px;
+    font-size: 22px
+}
+
+.gradient {
+    background-size: 200% auto;
+    transition-duration: .5s
+}
+
+.blog_btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 22px;
+    font-size: var(--font-medium);
+    color: var(--color-white);
+    font-weight: var(--weight-black);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    text-decoration: none!important;
+    border-radius: 5px;
+    border: none
+}
+
+.gradient-green {
+    background-image: var(--gradient-green)
+}
+
+.gradient-hover:hover {
+    background-position: right center
+}
+
+.btnForm {
+    text-align: center;
+    padding-top: 32px
+}
+
+.result {
+    align-items: start
+}
+
+.result .card_body>p {
+    font-size: 22px;
+    margin-bottom: 22px
+}
+
+.result .result_info>p {
+    font-size: 16px;
+    margin-bottom: 12px
+}
+
+.result .result_info .result_moeda {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    display: none
+}
+
+.list {
+    align-items: start
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-primary);
+    padding: 12px
+}
+
+.list li img {
+    width: 35px;
+    margin-right: 12px
+}
+
+.list li p {
+    font-size: 22px
+}
+
+.list li .ativoName {
+    display: flex;
+    align-items: center
+}
+
+.list li span {
+    font-size: 18px
+}

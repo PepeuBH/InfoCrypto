@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Moedas</title>
+    <link rel="stylesheet" href="styleConversor.css">
+</head>
+
+<body>
+
+
+    <section class="section banner">
+        <div class="title">
+            <h1>Conversor de Criptomoeda</h1>
+
+        </div>
+    </section>
+
+    <section class="section convert">
+        <div class="card">
+            <p class="card_title">Conversor</p>
+            <div class="card_body">
+                <form action="#" method="GET" class="card_form">
+                    <label class="real">
+                        <p>R$: </p>
+                        <input class="money2" type="text" name="currency" placeholder="0,00">
+                    </label>
+                    <div class="">
+                        <select class="moeda" name="virtual">
+                            <option value="BTC">BTC</option>
+                            <option value="BCH">BCH</option>
+                            <option value="BSV">BSV</option>
+                            <option value="ETH">ETH</option>
+                            <option value="LTC">LTC</option>
+                            <option value="ZRX">ZRX</option>
+                            <option value="USDC">USDC</option>
+                            <option value="BAT">BAT</option>
+                            <option value="KNC">KNC</option>
+                            <option value="LINK">LINK</option>
+                            <option value="DAI">DAI</option>
+                            <option value="ZEC">ZEC</option>
+                            <option value="XRP">XRP</option>
+                            <option value="REP">REP</option>
+                            <option value="XLM">XLM</option>
+                            <option value="EOS">EOS</option>
+                            <option value="XTZ">XTZ</option>
+                            <option value="DASH">DASH</option>
+                            <option value="ATOM">ATOM</option>
+                            <option value="OXT">OXT</option>
+                        </select>
+                    </div>
+
+                    <div class="flex-100 btnForm">
+                        <button class="blog_btn gradient gradient-hover gradient-green" type="submit">Calcular</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section result">
+        <div class="card">
+            <p class="card_title">Resultados</p>
+            <span class="error">Atenção preencha algum valor</span>
+            <div class="card_body">
+                <p>Moeda: <span id="moeda"></span></p>
+                <div class="result_info">
+                    <p>Valores</p>
+                    <div class="result_moeda">
+                        <p>Compra: </p>
+                        <p id="buy" class="money2">0,00</p>
+                    </div>
+                    <div class="result_moeda">
+                        <p>Venda: </p>
+                        <p id="sell" class="money2">0,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section list">
+        <div class="card">
+            <p class="card_title">Valor dos ativos hoje</p>
+            <div class="card_body">
+                <ul id="loopAtivo">
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="jquery.mask.js"></script>
+    <script src="script.min.js"></script>
+
+</body>
+
+</html>
